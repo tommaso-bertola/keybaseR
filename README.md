@@ -26,6 +26,7 @@ library(keybaseR)
 
 # sends message
 send_keybase(user='username', message='test message')
+send_keybase(user='team#channel', message='test message')
 
 # sends file
 send_keybase(user='username', file='/home/ubuntu/Desktop/image.png')
