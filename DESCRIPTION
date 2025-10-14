@@ -1,0 +1,18 @@
+Package: keybaseR
+Title: Sends Messages or Files to Keybase Users or Teams
+Version: 0.0.0.1000
+Authors@R: 
+    person("Tommaso", "Bertola", , "tommaso.bertola@phd.unipd.it", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-8345-984X"))
+Description: Sends Messages or Files to Keybase Users or Teams
+    using the Keybase command line client.
+    The package requires the Keybase client to be installed and
+    the user to be logged in.
+URL: https://tommaso-bertola.github.io/keybaseR/
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0), processx (>= 3.8.4)
+Config/testthat/edition: 3
