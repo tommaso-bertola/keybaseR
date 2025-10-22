@@ -2,4 +2,15 @@ url: https://tommaso-bertola.github.io/keybaseR/
 template:
   bootstrap: 5
   assets: false
+  include:
+    in_header: |
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-BDVKHT0337"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-BDVKHT0337');
+      </script>
 
